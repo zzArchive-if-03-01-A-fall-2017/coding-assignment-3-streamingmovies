@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitch</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="StreamingMovies.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+  </head>
+  <body>
+    <div class="w3-top">
+      <div class="w3-row w3-padding w3-black">
+        <div class="w3-col l1">
+          <a href="index.html" class="w3-button w3-block w3-black" role="button">Mainpage</a>
+        </div>
+        <div class="w3-col l1">
+          <a href="Netflix.html" class="w3-button w3-block w3-black" role="button">Netflix</a>
+        </div>
+        <div class="w3-col l1">
+          <a href="Maxdome.html"  class="w3-button w3-block w3-black" role="button">Maxdome</a>
+        </div>
+        <div class="w3-col l1">
+          <a href="Sky.html"  class="w3-button w3-block w3-black" role="button">Sky</a>
+        </div>
+        <div class="w3-col l1">
+          <a href="AmazonPrime.html"  class="w3-button w3-block w3-black" role="button">Amazon</a>
+        </div>
+        <div class="w3-col l1">
+          <a href="#" class="w3-button w3-block w3-black" role="button">Twitch</a>
+        </div>
+        <div class="w3-col l1">
+          <a href="Youtube.html" class="w3-button w3-block w3-black" role="button">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <h1 class="w3-center w3-padding-55"><span class="w3-tag w3-wide">Twitch</span></h1>
+    <section class="content">
+      <h2><strong>Information</strong></h2>
+      <section class="information">
+        <p><strong>Foundation:</strong> 2011</p>
+        <p><strong>Owner:</strong> Twitch Interactive Inc., Amazon.com Inc.</p>
+        <p><strong>Location:</strong> San Francisco, California, USA</p>
+        <p><strong>CEO:</strong> Emmett Shear</p>
+        <p><strong>Slogan:</strong> Don't just watch, join in.</p>
+        <p><strong>Cost:</strong> free, Prime: 8€/month</p>
+      </section>
+      <br>
+      <h2><strong>History</strong></h2>
+      <section>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>2011</td><td>Beta version of the game streaming platform Justin.tv was launched.</td>
+            </tr>
+            <tr>
+              <td>2013</td><td>45 million viewers and 6 million streamers were reached.</td>
+            </tr>
+            <tr>
+              <td>2014</td><td>Justin.tv Inc. was renamed to Twitch Interactive Inc. The company was bought by Amazon.</td>
+            </tr>
+            <tr>
+              <td>2016</td><td>The Twitch Prime service and a category for real life streams were added.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br>
+      <h2><strong>Comparison</strong></h2>
+      <br>
+      <section>
+        <article class="Twitch">
+          <table class="table-bordered">
+            <thead>
+              <tr>
+                <th>Advantages</th><th>Disadvantages</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>interaction with the streamer</td><td>needs a good internet connection</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <br>
+      <div class="link">
+        <a href="https://www.twitch.tv/" class="btn btn-default" role="button">Go to Twitch</a>
+      </div>
+
+      <br><br>
+
+      <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js" charset="utf-8"></script>
+      <script src="Twitch_API.js" charset="utf-8"></script>
+      <h3>Twitch Streamer Search</h3>
+      <div class="search">
+        <form action="#">
+          <p><input type="text" id="search" placeholder="Search for a channel ..." autocomplete="off" class="form-control"></p>
+          <div id="buttonSearch">
+            <input id="searchButton" type="submit" value="Search" class="form-control btn btn-primary w100">
+          </div>
+        </form>
+        <br><br>
+        <div id="results"></div>
+      </div>
+
+
+    </section>
+  </body>
+</html>
