@@ -1,0 +1,101 @@
+
+body{
+  font-family: Helvetica, sans-serif;
+  text-align: justify;
+
+  background-image: linear-gradient(to Bottom, lightgrey, white);
+  background-repeat: no-repeat;
+  font-size: 16px;
+}
+body#main> h1{
+  color: white;
+  background-image: url("header_back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 250px;
+  font-size: 56px;
+}
+p.history{
+  margin-left: auto;
+  margin-right: auto;
+  width: 45em;
+}
+.link{
+  text-align: center;
+  padding-bottom: 20px
+}
+h1{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 80px;
+  background-size: 1200px;
+
+}
+.streaming{
+  transform: rotate(-22deg);
+}
+
+h2{
+  font-size: 28px;
+  text-align: center;
+  font-weight:1500;
+}
+h3{
+  text-align: center;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+thead th{
+  font-size: 20px;
+  text-align: center;
+}
+tbody td{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+img.logo{
+  width:128px;
+  height:128px;
+}
+.information{
+  line-height: 10px;
+  text-align: center;
+}
+td{
+  margin: auto;
+}
+.table td{
+  text-align: left;
+}
+.most-known-providers td{
+  text-align: center;
+}
+#results{
+  text-align: center;
+}
+#search{
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#criteriums{
+  text-align: center;
+}
+#buttonSearch{
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  width: 500px;
+}
+#searchButton{
+}
+.image{
+  width: 64px;
+  height: 64px;
+}
+#twitch-result{
+  font-size: 24px;
+}
